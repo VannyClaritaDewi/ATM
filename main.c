@@ -40,7 +40,7 @@ int main()
                     printf("\n================================");
                     printf("\nMasukkan Nomor Rekening : ");
                     scanf("%lf", &no);
-
+		
                     for(i=0; i<n; i++){
                             if(no==nas[i].no_rek)
                             ketemu=true;
@@ -136,9 +136,10 @@ int main()
 	
 	else if(pil==4){
 
-        	printf("\n=======================================");
+        	printf("\n|=====================================|");
         	printf("\n|  1. Transfer Ke Rekening Bank KLP 4 |");
 		printf("\n|  2. Transfer Ke Rekening Bank Lain  |");
+		Printf("\n|_____________________________________|"
 		printf("\nPilihan anda : ");
 		scanf("%d", &piltrf);
 

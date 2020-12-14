@@ -136,9 +136,10 @@ int main()
 	
 	else if(pil==4){
 
-        	printf("\n=======================================");
+        	printf("\n|=====================================|");
         	printf("\n|  1. Transfer Ke Rekening Bank KLP 4 |");
 		printf("\n|  2. Transfer Ke Rekening Bank Lain  |");
+		printf("\n|_____________________________________|
 		printf("\nPilihan anda : ");
 		scanf("%d", &piltrf);
 
